@@ -1,0 +1,86 @@
+{
+    "Site": {
+        "acl_plugin": "Acl",
+        "admin_theme": "",
+        "asset_timestamp": "force",
+        "email": "you@your-site.com",
+        "feed_url": "",
+        "home_url": "",
+        "ipWhitelist": "127.0.0.1",
+        "locale": "eng",
+        "status": 1,
+        "tagline": "Hệ thống quản lý trường học",
+        "theme": "",
+        "timezone": "UTC",
+        "title": "Trường THPT Trần Hưng Đạo"
+    },
+    "Croogo": {
+        "Api": {
+            "path": "api"
+        },
+        "dashboardUrl": {
+            "admin": true,
+            "plugin": "extensions",
+            "controller": "extensions_dashboard",
+            "action": "index"
+        },
+        "installed": 1,
+        "version": "2.2.3"
+    },
+    "Hook": {
+        "bootstraps": "Settings,Comments,Contacts,Nodes,Meta,Menus,Users,Blocks,Taxonomy,FileManager,Wysiwyg,Ckeditor,ClearCache,Event,Multiattach"
+    },
+    "Access Control": {
+        "autoLoginDuration": "+1 week",
+        "models": "",
+        "multiRole": 0,
+        "rowLevel": 0
+    },
+    "Comment": {
+        "date_time_format": "M d, Y",
+        "email_notification": 1,
+        "feed_limit": 10,
+        "level": 1
+    },
+    "Meta": {
+        "description": "Croogo - A CakePHP powered Content Management System",
+        "generator": "Croogo - Content Management System",
+        "keywords": "croogo, Croogo",
+        "robots": "index, follow"
+    },
+    "Reading": {
+        "date_time_format": "D, M d Y H:i:s",
+        "nodes_per_page": 5
+    },
+    "Service": {
+        "akismet_key": "your-key",
+        "akismet_url": "http://your-blog.com",
+        "recaptcha_private_key": "your-private-key",
+        "recaptcha_public_key": "your-public-key"
+    },
+    "Writing": {
+        "wysiwyg": 1
+    },
+    "Event": {
+        "use_hold_my_ticket": "yes",
+        "hold_my_ticket_api_key": ""
+    },
+    "Nodeattachment": {
+        "maxFileSize": 5,
+        "allowedFileTypes": "jpg,gif,png",
+        "storageUploadDir": "",
+        "ffmpegDir": "n/a",
+        "types": "For download, My gallery",
+        "ffmpegExec": 0,
+        "thumbDir": "D:\\Program\\Xampp\\htdocs\\Plugin\\Nodeattachment\\webroot\\img\\tn",
+        "iconDir": "D:\\Program\\Xampp\\htdocs\\Plugin\\Nodeattachment\\webroot\\img",
+        "flvDir": "D:\\Program\\Xampp\\htdocs\\Plugin\\Nodeattachment\\webroot\\flv",
+        "thumbExt": "png",
+        "thumbnailExt": "png"
+    },
+    "Multiattach": {
+        "remove_settings": 0,
+        "allowed_mime__json": "[\"image\\/gif\",\"image\\/x-xbitmap\",\"image\\/gi_\",\"image\\/jpeg\",\"image\\/pjpeg\",\"image\\/jpg\",\"image\\/jp_\",\"application\\/jpg\",\"application\\/x-jpg\",\"image\\/pjpeg\",\"image\\/pipeg\",\"image\\/vnd.swiftview-jpeg\",\"image\\/x-xbitmap\",\"image\\/png\",\"application\\/png\",\"application\\/x-png\",\"application\\/pdf\",\"application\\/x-pdf\",\"application\\/acrobat\",\"applications\\/vnd.pdf\",\"text\\/pdf\",\"text\\/x-pdf\",\"image\\/bmp\",\"image\\/x-bmp\",\"image\\/x-bitmap\",\"image\\/x-xbitmap\",\"image\\/x-win-bitmap\",\"image\\/x-windows-bmp\",\"image\\/ms-bmp\",\"image\\/x-ms-bmp\",\"application\\/bmp\",\"application\\/x-bmp\",\"application\\/x-win-bitmap\",\"image\\/bmp\",\"image\\/x-bmp\",\"image\\/x-bitmap\",\"image\\/x-xbitmap\",\"image\\/x-win-bitmap\",\"image\\/x-windows-bmp\",\"image\\/ms-bmp\",\"image\\/x-ms-bmp\",\"application\\/bmp\",\"application\\/x-bmp\",\"application\\/x-win-bitmap\",\"text\\/plain\",\"application\\/txt\",\"browser\\/internal\",\"text\\/anytext\",\"widetext\\/plain\",\"widetext\\/paragraph\"]",
+        "thumbnail_sizes__json": "[\"thumb:150\",\"square-thumb:150,150\",\"normal:0,0\"]"
+    }
+}
